@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artsy At Heart</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Griffy" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  </head>
+  <body>
+    <header class="main-header">
+      <h1>Artsy At Heart</h1>
+      <nav>
+        <ul class="main-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="classes.html">Classes</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="custom.html">Custom</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="selected">Contact</a></li>
+        </ul>
+      </nav>
+    </header><!-- Main Header -->
+    <main>
+          
+      <div class="contact-info">
+        <div class="form-info">
+          <h2>Need to Contact Us?</h2>
+          <p>Please use this form to send us a message. We will get back to you as soon as possible!</p>
+        </div>
+          
+        <form action="mail-handler.php" method="post">
+          
+          First Name: 
+          <input type="text" name="first_name"><br>
+          
+          Last Name: 
+          <input type="text" name="last_name" id="last"><br>
+          
+          Your Email: 
+          <input type="email" name="email" id="email" required><br>
+          
+          Message: <br>
+          <textarea rows="5" name="message" cols="30" id="message" required></textarea><br>
+          
+          <button type="submit" name="submit" value="Submit" id="button">Submit</button>
+          
+        </form>
+      </div><!-- Form -->
+      
+      
+      </main>
+      <footer class="main-footer">
+      <nav>
+        <ul class="secondary-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="classes.html">Classes</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="custom.html">Custom</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="selected">Contact</a></li>
+        </ul>
+      </nav><!-- Secondary Nav-->
+      
+      <div class="foot">
+        <div class="social">
+          <a href="mailto:frazier.mary83@yahoo.com">
+            <img class="social-img" src="img/email.png" alt="Email Logo" id="e-mail">
+          </a>
+          <a href="tel:6622268835">
+            <img class="social-img" src="img/phone.png" alt="Phone Logo" id="phone">
+          </a>
+        </div><!-- Social Images -->
+        <p>Located in Grenada, Mississippi</p>
+        <p>Open: 8am-8pm, Monday-Thursday</p>
+      </div>
+      <p>&copy; 2017 Artsy At Heart</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+@media (min-width: 680px) {
+
+ .main-nav {
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .art,
+  .gallery-items,
+  .contact-info,
+  .columns,
+  .link-list,
+  .about{
+    flex-direction: row;  
+    justify-content: space-around;
+  }
+
+  .art p,
+  .form-info {
+    padding: 0 10px;
+  }
+
+  .contact-info {
+    align-items: flex-start;
+  }
+
+  .gallery-items figure,
+  .art-pic {
+    width: 33%;
+  } 
+
+  .col {
+    width: 45%;
+  }
+
+  .about-pic {
+    max-width: 40%;
+    margin: 10px;
+  }
+}
+
+
+@media (min-width: 980px) {
+
+  main,
+  .main-header,
+  .main-footer {
+    font-size: 1.1em;
+  }
+
+  .gallery-items figure {
+    width: 25%;
+  } 
+
+  .misc-columns {
+    flex-direction: row; 
+  }
+
+  .misc {
+    width: 33%;
+    padding: 15px;
+  }
+}
+
